@@ -18,7 +18,8 @@ function currentLine(katzDeliLine){
     return "The line is currently empty."
   } else {
     var line_format = ""
-    for (var i = 0; i <katzDeliLine.length; i++){
+    for (var i = 0; i < katzDeliLine.length; i++){
+      console.log(katzDeliLine.length)
       var name = katzDeliLine[i]
       line_format.concat(` ${i+1}. ${name}`)
       console.log(line_format)
