@@ -5,15 +5,12 @@ function takeANumber(katzDeliLine, name){
 }
 
 function nowServing(katzDeliLine){
-  if (katzDeliLine == []){
+  if (katzDeliLine.length == 0){
     return "There is nobody waiting to be served!"
-  }
-
-  else if (katzDeliLine != []){
+  } else {
     return `Currently serving ${katzDeliLine.shift()}.`
     katzDeliLine
   }
-
 }
 
 function currentLine(katzDeliLine){
@@ -29,3 +26,6 @@ function currentLine(katzDeliLine){
   }
 }
 }
+
+katzDeliLine = ["a", "b", "c"]
+currentLine(katzDeliLine)
