@@ -22,7 +22,7 @@ function currentLine(katzDeliLine){
       var name = katzDeliLine[i]
       line_format.concat(` ${i+1}. ${name}`)
     }
-    return `The line is currently:${line_format}`
+    console.log(`The line is currently:${line_format}`)
 
   }
 }
