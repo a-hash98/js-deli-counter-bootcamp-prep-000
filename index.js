@@ -29,6 +29,3 @@ function currentLine(katzDeliLine){
   }
 }
 
-
-katzDeliLine = ["a", "b", "c"]
-currentLine(katzDeliLine)
