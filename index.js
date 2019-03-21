@@ -8,4 +8,3 @@ function nowServing(katzDeliLine){
   return `Now serving ${katzDeliLine[0]}`
   katzDeliLine.shift()
 }
-
