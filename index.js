@@ -5,6 +5,13 @@ function takeANumber(katzDeliLine, name){
 }
 
 function nowServing(katzDeliLine){
-  return `Currently serving ${katzDeliLine[0]}.`
-  katzDeliLine.splice(0,1)
+  if katzDeliLine != []{
+    return `Currently serving ${katzDeliLine.shift()}.`
+    katzDeliLine
+  
+  } else {
+    return "There is nobody waiting to be served!"
+    
+  }
+
 }
