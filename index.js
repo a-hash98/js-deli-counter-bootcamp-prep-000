@@ -25,8 +25,7 @@ function currentLine(katzDeliLine){
       line_format.concat(` ${i+1}. ${katzDeliLine}[i]`
     }
     return `The line is currently:${line_format}`
-    
+
   }
 }
 }
-
